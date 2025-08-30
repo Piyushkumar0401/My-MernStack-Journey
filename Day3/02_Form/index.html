@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM ELEMENT</title>
+  </head>
+  <body>
+    <h1>Forms DEMO</h1>
+    <p>Outside the form(Won't submit anything)</p>
+    <button>click me</button>
+    <hr />
+    <form action="/Day3/02_Form/tacos.html">
+      <p>
+        Type is button so it's work like normal button not submitting anything
+      </p>
+      <button type="button">Please Do Not submit the form</button>
+      <hr />
+      <div>
+        <label for="name">Enter a Username: </label>
+        <input
+          type="text"
+          id="name"
+          placeholder="Username"
+          name="username"
+          value=""
+        />
+      </div>
+      <div>
+        <label for="SecurityPW">Enter your Password: </label>
+        <input
+          type="password"
+          id="SecurityPW"
+          name="password"
+          placeholder="Enter your Password"
+        />
+      </div>
+      <div>
+        <label for="Id">Select your favourite color: </label>
+        <input type="color" id="Id" name="color" />
+      </div>
+      <div>
+        <label for="age">Enter your age: </label>
+        <input
+          type="number"
+          id="age"
+          name="age"
+          placeholder="Enter your age: "
+        />
+      </div>
+      <div>
+        <label for="cheese">Do you like cheese? </label>
+        <input type="checkbox" name="" id="cheese" />
+      </div>
+      <div>
+        <label
+          >Do you like momos :
+          <input type="checkbox" />
+        </label>
+      </div>
+      <div>
+        <p>Input tag with type submit but we don't use , we use button</p>
+        <input type="submit" value="Submit" />
+        <hr />
+      </div>
+      <div>
+        <p>
+          button with default type submit we can change using type= button for
+          normal button
+        </p>
+        <button name="q" value="Silkie">Submit</button>
+      </div>
+    </form>
+    <hr />
+
+    <!-- form for search in reddit -->
+    <p>THIS IS FOR REDDIT SEARCH</p>
+    <form action="https://www.reddit.com/search/">
+      <input type="search" name="q" value="" placeholder="Search" />
+      <button>Search</button>
+    </form>
+    <hr />
+    <p>THIS IS FOR GOOGLE SEARCH</p>
+    <form action="https://www.google.com/search/">
+      <input type="search" name="q" placeholder="search" value="" />
+      <button>Search</button>
+    </form>
+    <hr />
+    <p>THIS IS FOR YOUTUBE SEARCH</p>
+    <form action="https://www.youtube.com/results">
+      <input type="search" name="search_query" value="" placeholder="Search" />
+      <button>Search</button>
+    </form>
+    <hr />
+    <form action="/birds">
+      <p>checkbox</p>
+      <input type="checkbox" name="q" id="bird" value="ohk" checked />
+      <label for="">I am agreed to term & condition</label>
+      <button>Submit</button>
+    </form>
+    <hr />
+    <form action="/Day3/02_Form/tacos.html">
+      <p>radio button</p>
+      <input type="radio" name="gender" id="male" value="male">
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="female" value="female">
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="other" value="other">
+      <label for="other">Other</label>
+      <button>Submit</button>
+    </form>
+    <hr>
+    <form action="/Day3/02_Form/tacos.html">
+      <p>select</p>
+      <label for="SelectCity">Selcet your city</label>
+      <select name="city" id="SelectCity">
+        <option value="">Please select your city</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Bihar">Bihar</option>
+      </select>
+      <button>Submit</button>
+    </form>
+    <hr>
+  </body>
+</html>
