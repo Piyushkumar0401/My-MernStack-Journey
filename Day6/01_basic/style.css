@@ -1,0 +1,13 @@
+body{
+  background-color: rgb(53, 106, 135);
+}
+h1{
+  color: rgb(225, 217, 233);
+}
+button {
+  background-color: aqua;
+}
+p{
+  color: #ff0000;
+  background-color: olive;
+}
