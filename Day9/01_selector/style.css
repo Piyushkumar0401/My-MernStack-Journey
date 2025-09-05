@@ -1,0 +1,101 @@
+/* universal selector */
+* {
+  color: #000000;
+  background-color: #d8a4b1;
+}
+
+/* element selector */
+button {
+  width: 100px;
+  height: 50px;
+  font-size: larger;
+}
+/* multiple element selector */
+h1,
+h2 {
+  font-weight: bolder;
+  font-size: xx-large;
+}
+/* id selector */
+
+#signup {
+  color: #ddc6b6;
+  background-color: #000;
+}
+/* class selector */
+.spanclass {
+  color: teal;
+}
+
+/* descendant selector */
+section span a {
+  color: seagreen;
+}
+footer a {
+  text-decoration: none;
+  color: blue;
+}
+
+/* Adjacent Selector */
+
+h2 + button {
+  color: aquamarine;
+}
+/* child selector */
+footer > a {
+  color: #000000;
+  background-color: red;
+}
+
+/* attribute selector */
+
+input[type="text"] {
+  background-color: #fff;
+}
+
+/* section[class="post"]{} */
+
+a[href *="google"]{
+  color: black;
+}
+
+
+/* Psuedo class */
+footer a:hover{
+  font-size: 20px;
+}
+button:hover{
+  color: #fff;
+  background-color: #000;
+  width: 180px;
+  height: 80px;
+}
+
+button:active{
+  width: 80px;
+  height: 40px;
+  background-color: #fff;
+  color: #000;
+}
+
+section:nth-of-type(){
+  background-color: #fff;
+}
+
+/* 05-09-2025 */
+
+/* pseudo element */
+h2::first-letter{
+  color: red;
+}
+p::first-line{
+  color: red;
+}
+p::selection{
+  background-color: yellow;
+}
+
+/* !important exception */
+/* button{
+  background-color: hsl(0, 97%, 50%) !important;
+} */

@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+h1{
+  background-color: rgb(51, 51, 142);
+  border: 2px solid black;
+  margin: 15px 5px;
+  display: inline;
+  padding: 100px;
+  /* width: 500px; also height ignore in inline */
+  margin: 50px;
+}
+span{
+  background-color: rgb(42, 42, 167);
+  border: 2px solid black;
+  margin: 15px 5px;
+  padding: 5px;
+  display: block;
+  /* width: 500px; */
+  margin: 200px;
+}
+#box2{
+    background-color: rgb(54, 54, 147);
+  border: 2px solid black;
+  margin: 15px 5px;
+  padding: 5px;
+  display: inline-block;
+  width: 500px;
+}
