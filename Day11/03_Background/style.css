@@ -1,0 +1,19 @@
+body{
+  font-family: Asimovian,Roboto,sans-serif ;
+}
+section{
+  width: 80%;
+  height: 600px;
+  margin: 0 auto;
+  background: url(/Day11/03_Background/img.avif) no-repeat;
+  /* background-image: url(/Day11/03_Background/img.avif); */
+  background-size: cover;
+  background-position: top;
+  text-align: center;
+
+}
+h1{
+  color: white;
+  font-size: 100px;
+  font-weight: 900;
+}
